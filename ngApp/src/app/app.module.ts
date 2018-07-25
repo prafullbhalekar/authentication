@@ -13,6 +13,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterformComponent } from './registerform/registerform.component';
 import { ProfileComponent } from './profile/profile.component';
+import { EventsComponent } from './events/events.component';
+import { SpecialevntsComponent } from './specialevnts/specialevnts.component';
 
 
 
@@ -24,6 +26,8 @@ import { ProfileComponent } from './profile/profile.component';
     LoginComponent,
     RegisterformComponent,
     ProfileComponent,
+    EventsComponent,
+    SpecialevntsComponent,
     
   ],
   imports: [

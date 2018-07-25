@@ -1,0 +1,17 @@
+
+ <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a RouterLink="">authentication</a>
+      </div>
+      <div class="navbar-header">
+        <a routerLink="/events">Events</a>
+      </div>
+      <div class="navbar-header">
+        <a routerLink="/specialevents">Special Events</a>
+      </div>
+      <div class="navbar-header">
+        <a *ngIf="_auth.loggedIn()" (click)="_auth.logOutUser()">LogOut</a>
+      </div>
+    </div>
+  </nav>
